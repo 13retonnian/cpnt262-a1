@@ -1,0 +1,80 @@
+/* Programmed by Christopher Barber */
+*{
+    font-size: 20px;
+    font-weight: bold;
+}
+html{
+    background-color: rgba(255, 65, 0, 0.8);
+    background-image: url('../img/AutumnWallpaperGif.gif');
+    background-repeat: no-repeat;		
+	background-position: top;	
+	background-size: cover;
+	height: 100vh;
+}
+#NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(255, 65, 0, 0.8);   
+    border-style: solid;
+    border-color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    background-color: rgba(255, 65, 0, 0.8); 
+    border-style: solid;
+    border-color: black;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    font-size: 50px;
+}
+h2{
+    background-color: rgba(255, 65, 0, 0.8);  
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    max-width: 50%;
+    font-size: 30px;
+}
+h3{
+    background-color: rgba(255, 65, 0, 0.8);  
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    max-width: 50%;
+    font-size: 30px;
+}
+p{
+    background-color: rgba(255, 65, 0, 0.8);   
+    border-style: solid;
+    border-color: black;    
+    max-width: 50%;    
+    font-size: 1vw;
+    font-size: clamp(10px 20px 20px);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    
+}
+footer{
+    background-color: rgba(255, 65, 0, 0.8);   
+    border-style: solid;
+    border-color: black;    
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 600px;
+}
+img{
+    
+}
