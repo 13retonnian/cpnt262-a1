@@ -11,6 +11,14 @@ html{
 	background-size: cover;
 	height: 100vh;
 }
+.spookyClass{
+    background-color: rgba(255, 65, 0, 0.8);
+    background-image: url('../img/castle.gif');
+    background-repeat: no-repeat;		
+	background-position: top;	
+	background-size: cover;
+	height: 100vh;
+}
 #NavBar{
     display: flex;
     flex-direction: row;

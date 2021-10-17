@@ -1,11 +1,11 @@
-SAIT Web Development CPNT 260
+SAIT Web Development CPNT 262 Assignment 1
 Christopher Barber
 
 Links:
 Github Repo:
-https://github.com/Chriztoph3/cpnt260-a1
+https://github.com/13retonnian/cpnt262-a1
 Github Pages Site:
-https://chriztoph3.github.io/cpnt260-a1/
+https://13retonnian.github.io/cpnt262-a1/
 
 Client information:
 Awesome people
