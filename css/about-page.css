@@ -7,13 +7,16 @@ html{
 	background-size: cover;
 	height: 100vh;
 }
-#NavBar{
+nav:link {
+    color: black;
+}
+#NavBar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    background-color: rgba(255, 65, 0, 0.8);   
+    justify-content: space-evenly;       
     border-style: solid;
     border-color: black;
+    font-size: 30px;
 }
 header{
     display: flex;
@@ -21,25 +24,22 @@ header{
     align-items: center;
 }
 
-h1{    
-    display: flex;
+h1{  
     justify-content: center;
     align-items: center;
     max-width: 50%;
     font-size: 50px;
 }
 h2{
-    display: flex;
     max-width: 50%;
     font-size: 30px;
 }
-h3{    
-    display: flex;
+h3{        
     max-width: 50%;
     font-size: 30px;
 }
 p{     
-    max-width: 50%;    
+    max-width: 80%;    
     font-size: 1vw;
     font-size: clamp(10px 20px 20px);
 }
@@ -54,17 +54,28 @@ footer{
 .html-spooky
 {
     background-color: rgba(9, 9, 9, 0.8);
-    background-image: url('../img/castle.gif');
+    background-image: url('../img/moon.gif');
 }
 .autumn-class {
     background-color: rgba(255, 65, 0, 0.8);
     border-style: solid;
     border-color: black; 
+    padding: 10px;
 }
 .spooky-class{
-    background-color: rgba(9, 9, 9, 0.8);    
-    opacity: 0.6;    
+    background-color: rgba(9, 9, 9, 0.8); 
     border-color: white;
     border-style: double;
     color: white;
+    border-radius: 10%;
+}
+#spooky-button {
+    position: absolute;
+    left: 0px;
+}
+.charlie-image { 
+    background: url('../img/Halloween2.gif');
+}
+.castle-image {
+    background: url('../img/castle.gif');
 }

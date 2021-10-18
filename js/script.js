@@ -1,13 +1,23 @@
 const button = document.querySelector("button");
 const htmlClass = document.querySelector("html");
-const autumnClass = document.getElementsByClassName("autumn-class");
+const wordsClass = document.getElementsByClassName("autumn-class");
+const imageGif = document.querySelector("img");
+let castle = false;
 
 const spookyButton = function(event) {
   event.preventDefault();
   htmlClass.classList.toggle("html-spooky");
-  for(let i = 0; i < autumnClass.length; i++)
+  for(let i = 0; i < wordsClass.length; i++)
   {
-    autumnClass[i].classList.toggle("spooky-class")  
+    wordsClass[i].classList.toggle("spooky-class")  
+  }
+  //if castle isn't there then switch to castle and vice versa
+  if(castle) {
+    imageGif.src = "img/Halloween2.gif"
+    castle = false;
+  } else {
+    imageGif.src = "img/castle.gif";
+    castle = true;
   }
   
 }
