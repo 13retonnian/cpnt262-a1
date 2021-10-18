@@ -1,20 +1,22 @@
-SAIT Web Development CPNT 262 Assignment 1
+#SAIT Web Development CPNT 262 Assignment 1
 Christopher Barber
 
-Links:
-Github Repo:
+###Links:
+####Github Repo:
 https://github.com/13retonnian/cpnt262-a1
-Github Pages Site:
+####Github Pages Site:
 https://13retonnian.github.io/cpnt262-a1/
 
-Client information:
+###Client information:
 Awesome people
 Halloween enthusiasts
 They Party
 
-Reflection:
+###Reflection:
 Note 1 technical issue you had while creating this:
-The footer kept on going on top of everything and I couldn't figure out how to stick it to the bottom.
+I can't get the button to look like a button
 How did you approach solving it:
 Working on it..
-Attributions for code or assets that are not your own
+
+###Attributions:
+Attributions to Tony Grimes and Ashlyn Knox

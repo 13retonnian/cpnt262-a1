@@ -1,13 +1,19 @@
-const button = document.querySelector("button");
+//programmed by Christopher Barber 
+// attributions to Tony Grimes and Ashlyn Knox
+// attributions to W3 schools 
+const spookyButton = document.querySelector("button");
 const htmlClass = document.querySelector("html");
 const wordsClass = document.getElementsByClassName("autumn-class");
 const imageGif = document.querySelector("img");
-const aClass = document.querySelectorAll("a");
+const navElements = document.querySelectorAll("a");
 let castle = false;
+let buttonIsSpooky = true;
 
-const spookyButton = function(event) {
+const spookyButtonClick = function(event) {
   event.preventDefault();
+  //changing the class of the html element for the background image
   htmlClass.classList.toggle("html-spooky");
+  //changing the class of the word elements
   for(let i = 0; i < wordsClass.length; i++)
   {
     wordsClass[i].classList.toggle("spooky-class")  
@@ -20,11 +26,22 @@ const spookyButton = function(event) {
     imageGif.src = "img/castle.gif";
     castle = true;
   }  
-
-  for(let i = 0; i < aClass.length; i++)
+  //change the colour of the nav elements
+  for(let i = 0; i < navElements.length; i++)
   {
-    aClass[i].classList.toggle("aClass");
+    navElements[i].classList.toggle("nav-elements");
   }
+  //change the spooky button
+  spookyButton.classList.toggle("halloween-button");
+  if(buttonIsSpooky){
+    spookyButton.textContent = "Normal Button";
+    buttonIsSpooky = false;
+  } else {
+    spookyButton.textContent = "Spooky Button";
+    buttonIsSpooky = true;
+  }  
+  
+
 }
 
-button.addEventListener("click", spookyButton);
+spookyButton.addEventListener("click", spookyButtonClick);
