@@ -6,6 +6,7 @@ html{
 	background-position: top;	
 	background-size: cover;
 	height: 100vh;
+    font-family: 'IM Fell English SC', serif;
 }
 #NavBar {
     display: flex;
