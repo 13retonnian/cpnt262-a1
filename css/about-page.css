@@ -22,16 +22,19 @@ header{
     align-items: center;
 }
 p{     
-    width: 80%;
-    font-size: clamp(10px, 2vw, 25px);
+    width: 60%;
+    font-size: clamp(1em, 2vw, 1.4em);
 }
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-footer{
-    
+h1 {
+    font-size: 40px;
+}
+h2, h3 {
+    font-size: 25px;
 }
 .html-spooky
 {
@@ -52,20 +55,19 @@ footer{
     border-width: 5px;
     color: white;       
 }
-#spooky-button {
-    position: absolute;
+.spooky-button {    
     left: 0px;
     width: 250px;
     height: 50px;
-    font-size: 25px;
-    background-color: rgb(0, 0, 0);
+    font-size: 25px;    
     border-radius: 30%;
     border-color: red;
-    color: white;
-    filter: drop-shadow(10);
+    border-width: 7px;
+    background-color: black;
+    color: white;    
     font-family: 'IM Fell English SC', serif;
 }
-#spooky-button:hover {
+.spooky-button:hover {
     background-color: red;
 }
 .charlie-image { 
@@ -83,4 +85,8 @@ a:link{
 .halloween-button {
     background-color: orangered;
     color: black;
+}
+.halloween-button:hover {
+    background-color: black;
+    color: orangered;
 }

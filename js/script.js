@@ -1,6 +1,9 @@
 //programmed by Christopher Barber 
 // attributions to Tony Grimes and Ashlyn Knox
 // attributions to W3 schools 
+// Whole-script strict mode syntax
+'use strict';
+
 const spookyButton = document.querySelector("button");
 const htmlClass = document.querySelector("html");
 const wordsClass = document.getElementsByClassName("autumn-class");
@@ -31,17 +34,14 @@ const spookyButtonClick = function(event) {
   {
     navElements[i].classList.toggle("nav-elements");
   }
-  //change the spooky button
+  //change the spooky button into the halloween button
   spookyButton.classList.toggle("halloween-button");
   if(buttonIsSpooky){
-    spookyButton.textContent = "Normal Button";
+    spookyButton.textContent = "Halloween Button";
     buttonIsSpooky = false;
   } else {
     spookyButton.textContent = "Spooky Button";
     buttonIsSpooky = true;
   }  
-  
-
 }
-
 spookyButton.addEventListener("click", spookyButtonClick);
